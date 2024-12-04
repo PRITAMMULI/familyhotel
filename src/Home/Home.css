@@ -1,0 +1,1053 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Work+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&family=Work+Sans:wght@100&display=swap");
+
+/* copied from global.css */
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Lobster&family=Open+Sans:wght@300&family=Work+Sans:wght@100&display=swap");
+
+/* dishdetails start */
+.product_details {
+  padding-top: 100px;
+}
+
+.product_title {
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.product_title:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  color: orangered;
+}
+
+.productImage {
+  height: fit-content;
+  width: 500px;
+  padding: 10px;
+}
+
+.productinfobuttons {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.linkonhome {
+  color: white;
+}
+
+.detail_image_of_product {
+  width: 100%;
+}
+
+.detail_image_of_product:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.ratingbutton {
+  border: 2px solid black;
+  margin-top: 10px;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.ratingbutton:hover {
+  background-color: orangered;
+  color: black;
+}
+
+.product_price {
+  margin-top: 10px;
+}
+
+.product_price:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.available_offers {
+  color: green;
+}
+
+ul {
+  list-style: none;
+}
+
+.orignal_price {
+  color: red;
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.product_description {
+  margin-top: 10px;
+  color: green;
+}
+
+.hurryup {
+  height: 100px;
+}
+
+.product_thumbnail {
+  border: 2px solid red;
+  margin-top: 10px;
+}
+
+.offer_icon {
+  color: green;
+  position: relative;
+  right: 20px;
+}
+
+.details_buttons {
+  width: 100%;
+  color: white;
+}
+
+.favorite_button {
+  background-color: orangered;
+}
+
+/* dishdetails ends */
+
+/* cartitem start */
+.heading {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.refreshbutton {
+  margin: 10px 0px 10px 0px;
+}
+
+.dishid {
+  text-align: end;
+}
+
+.cancel_button {
+  margin-top: 5px;
+  text-align: end;
+}
+
+.cart {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+.cart:hover {
+  background: rgb(241, 239, 236);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.status {
+  color: rgb(228, 228, 26);
+}
+/* cartitem end */
+
+/* Contactnav start */
+.navigation-item-link {
+  margin: auto;
+  padding: 0px 30px 0px 30px;
+}
+
+.contact-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 45;
+}
+
+.contact_nav_items {
+  /* color: white; */
+  padding: 20px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contact_nav_items:hover {
+  /* background-color: ; */
+  transform: scale(1.1);
+  color: blue;
+}
+
+@media screen and (max-width: 992px) {
+  .contact_nav_items {
+    color: black;
+  }
+}
+
+/* Contactnav end */
+
+/* Contact page start */
+.bgcontact {
+  background-image: url("../Images/restraurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  background-position: center;
+  position: relative;
+  z-index: 40;
+  opacity: 0.8;
+}
+
+.restraurantheading {
+  /* color: whitesmoke; */
+  text-align: center;
+  padding-top: 150px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration-style: wavy;
+}
+
+.restraurantheading:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+  color: rebeccapurple;
+}
+
+.hotel {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  letter-spacing: 5px;
+}
+
+.hotel:hover {
+  cursor: pointer;
+}
+
+.contactcard {
+  margin-left: 20px;
+  position: relative;
+  z-index: 50;
+  bottom: 100px;
+}
+
+.contactsubcard {
+  box-shadow: 0px 7px 0px blue;
+  border: 2px solid black;
+  min-height: 320px;
+}
+
+.contactsubcard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.contact_icon:hover {
+  background-color: gray;
+  border-radius: 20px;
+  color: wheat;
+  padding-left: 10px;
+  transform: scale(1.05);
+}
+
+.contact {
+  padding: 70px;
+  padding-top: 0px;
+}
+
+.contactsupport {
+  height: 160px;
+}
+
+.contact_card_title {
+  text-align: center;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacts {
+  height: 150px;
+  padding: 10px;
+}
+
+.form {
+  border: none;
+  position: relative;
+  bottom: 10px;
+  top: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.label {
+  text-align: center;
+  opacity: 0.5;
+}
+
+.contactform_heading {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  padding: 5px;
+  color: blue;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.contactform_heading:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.formbutton {
+  border-radius: 50px;
+  width: 30%;
+}
+
+.form_button {
+  text-align: center;
+}
+
+.formbutton:hover {
+  background-color: green;
+  transform: scale(1.05);
+  overflow-y: scroll;
+  color: white;
+}
+
+/* Contact page ends */
+
+/* Cart item stsrt */
+.your_cart {
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 1px;
+  padding: 40px;
+}
+
+.quantity {
+  width: 40%;
+}
+
+#remove {
+  border: 2px solid red;
+}
+
+.order_table {
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px 5px gray;
+  width: fit-content;
+}
+
+.uiui {
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+}
+
+.wrapper {
+  height: 50px;
+  /* min-width: 200px; */
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 12px;
+}
+
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.wrapper span.num {
+  font-size: 20px;
+}
+
+.plus:hover,
+.minus:hover {
+  cursor: pointer;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.item_details {
+  display: flex;
+}
+
+.total_button {
+  border: 5px solid black;
+  margin-left: 70%;
+  width: 30%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.shoppingcart_heading {
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+  bottom: 20px;
+}
+
+.orderdetails {
+  margin-top: 150px;
+  color: black;
+  min-width: 400px;
+  background-color: rgba(229, 209, 209, 0.226);
+  width: fit-content;
+  font-size: large;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+.ordersummary {
+  font-family: "Lobster", cursive;
+  font-family: "Work Sans", sans-serif;
+  font-size: xx-large;
+}
+
+.horizontal {
+  position: relative;
+  bottom: 20px;
+}
+
+.total_btn {
+  margin-left: 190px;
+  position: relative;
+  bottom: 10px;
+}
+
+.total_btn:hover {
+  background-color: red;
+  border-radius: 50px;
+  transform: scale(1.1);
+}
+
+.order_cart {
+  width: fit-content;
+  margin-top: 150px;
+}
+
+/* cart item ends */
+
+/* payment page start */
+.payment_heading {
+  color: blue;
+  position: relative;
+  top: 15px;
+}
+
+.from {
+  border: 2px solid black;
+  width: 100%;
+}
+
+/* payment page end */
+
+/* cartnav css start */
+.cartnav {
+  text-align: center;
+}
+
+.filterbutton {
+  margin: 10px 15px 10px 15px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.filterbutton:hover {
+  transform: scale(1.1);
+}
+
+/* cartnav css end */
+
+/* cardsection css start */
+.cardtitle {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cardcontainer {
+  width: 100%;
+}
+
+.dummyproduct {
+  width: 30%;
+  display: flex;
+  /* border: 2px solid black; */
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-pay {
+  display: block;
+  width: 100%;
+  border: none;
+  background: linear-gradient(
+    135deg,
+    rgb(49, 0, 62) 0%,
+    rgb(195, 40, 110) 100%
+  );
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.options {
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+/* cardsection css ends */
+
+/* paymentconfirmation startt */
+.paymentconfiramtion {
+  margin-top: 100px;
+}
+
+.paymentconfiramtionheading {
+  font-size: xx-large;
+  word-spacing: 5px;
+}
+
+.paymentconfiramtiondetails {
+  background: white;
+}
+
+.confirmation:hover ~ .paymentconfiramtiondetails {
+  position: relative;
+  bottom: 250px;
+}
+
+.confirmation {
+  background: green;
+  min-height: 100px;
+  border: 2px solid black;
+}
+
+.successgif {
+  width: 100%;
+  height: 20%;
+}
+
+/* paymentconfiramtion ends */
+
+/* errorpage start */
+.errorgif {
+  margin-left: 40%;
+  margin-top: 150px;
+}
+
+.errorbutton {
+  width: 50%;
+  margin-left: 30%;
+}
+
+/* errorpage end */
+
+/* sidebarcss start */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: black;
+  width: 120%;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+  color: white;
+  padding: 10px;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  font-size: larger;
+  border-radius: 5px;
+  width: 100%;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.menu-item-component {
+  padding-left: 10px;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.item_ongoing {
+  transform: scale(1.1);
+  background-color: blue;
+  border-radius: 10px;
+}
+
+/* sidebar css ends */
+
+/* Itemdetails start */
+.productDetail_Image {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+  min-height: 500px;
+  max-height: 500px;
+  width: 600px;
+  position: sticky;
+  top: 20px;
+}
+
+.productDetail_Image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cart_button {
+  width: 100%;
+  padding: 12px;
+}
+
+.cart_button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.functional_button {
+  position: sticky;
+  top: 550px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.swiggy {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 10px;
+  font-size: xx-large;
+  color: blue;
+}
+
+.currency {
+  margin-bottom: 20px;
+}
+
+.list_items {
+  margin-top: 20px;
+}
+
+.list_items:hover {
+  background-color: rgb(247, 244, 244);
+}
+
+.warenty {
+  margin: auto;
+  color: orangered;
+}
+
+.highlighgts {
+  margin-top: 20px;
+}
+
+.highlighgts_heading {
+  color: rgb(230, 26, 26);
+}
+
+.item_head {
+  color: orange;
+}
+
+/* favourite start */
+#favouriteImage {
+  border: 5px solid red;
+  max-height: 200px;
+  min-height: 30px;
+}
+
+.favoritetable {
+  border: 5px solid black;
+  margin-left: 150px;
+}
+
+/* favourite end */
+/* Itemdetails end */
+
+/* yourorder start */
+.your_order {
+  text-align: center;
+  margin-top: 30px;
+  border: 2px solid black;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  z-index: 50;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px rgb(220, 208, 208);
+  top: -30px;
+}
+
+.current_order_status {
+  margin-left: 500px;
+}
+
+.current_order_status:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.user_items {
+  list-style: none;
+}
+
+.status {
+  color: hsl(60, 91%, 31%);
+}
+
+.myOrder {
+  border: 2px solid black;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.my_orders:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  border-left: 10px solid blue;
+}
+
+/* yourorder end */
+
+/* ticketheader start */
+.ticketheader {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.ticket_actions {
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* ticketheader end */
+
+/* userticket start*/
+.user_ticket {
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.raised_ticket_buttons {
+  margin: 10px;
+  width: 150px;
+}
+
+.usersolution {
+  color: rgb(33, 162, 33);
+}
+
+.userreason {
+  color: rgb(222, 88, 88);
+}
+
+.userreason:hover {
+  color: blue;
+}
+
+.usersolution:hover {
+  color: blue;
+}
+
+/* userticket ends */
+
+/* newHome CSS start */
+.background_image {
+  width: 100%;
+  height: 500px;
+  position: fixed;
+  top: 10px;
+  z-index: 50;
+}
+
+.top_product_heading {
+  margin-top: 550px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: #ffff;
+  position: relative;
+  z-index: 60;
+  margin-bottom: 10px;
+}
+.top_rated_food_heading {
+  /* margin-top: 550px; */
+}
+
+.top_rated_food_image {
+  min-height: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+}
+
+.top_rated_food_image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.topr_rated_image_card {
+  border-radius: 10px;
+}
+
+.footer_section {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+/* newHome CSS start */
+
+/* new_navbar CSS start */
+.new_navbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 90;
+}
+
+.navbar_logo {
+  height: 50px;
+  width: 150px;
+}
+
+.navbar_logo:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(229, 209, 209, 0.226);
+}
+
+.new_navbar_items {
+  justify-content: end;
+  display: flex;
+  width: 80%;
+}
+
+.login_button {
+  margin-right: 50px;
+}
+/* new_navbar css end */
+
+/* #F8F8F8 */
+/* newmenu css start */
+.inspiration_for_you {
+  min-height: 100px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+  padding: 50px 100px 50px 100px;
+}
+
+.inspiration_image {
+  min-height: 190px;
+  padding: 10px;
+  max-height: 100px;
+  border: 3px solid #808080;
+}
+
+.inspiration_image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.carousel-container {
+  width: 90%;
+  margin: auto;
+}
+
+.carousel-container h1 {
+  margin-bottom: 40px;
+}
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.menu_image {
+  border-radius: 20px;
+  padding: 10px;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.menu_card {
+  border: 1px solid #ffffff;
+}
+
+.menu_card:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 1px 1px #808080;
+  cursor: pointer;
+}
+
+.menu_card_body {
+  display: flex;
+  justify-content: space-between;
+}
+/* newmenu css end */
+
+/* new login start */
+.navigation_box {
+  justify-content: center;
+  display: flex;
+}
+
+#form_container {
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 2px #ebdfdf;
+  border-radius: 10px;
+}
+
+.member_login_heading {
+  display: flex;
+  justify-content: center;
+}
+
+#form {
+  margin-top: 50px;
+}
+
+#form input {
+  border-radius: 20px;
+  background-color: #e7e6e8;
+}
+
+#form button {
+  background-color: #6fb553;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.login_image_container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.login_user_image {
+  justify-content: center;
+  display: flex;
+  height: 170px;
+  width: 170px;
+  padding: 25px;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+}
+/* new login end */
+
+/* new signup start */
+.signup_image {
+  height: 300px;
+}
+/* new signup end */
+/* Dummy css start */
+.video {
+  border: 2px solid black;
+  min-height: 300px;
+}
+
+.dummy_div {
+  width: 600px;
+  height: 400px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 2px double;
+}
+/* Dummy css end */
+
+/* .dummy_div {
+    position: relative;
+    background-color: gray; /* Optional background color *
+    padding: 20px;
+
+    text-align: center;
+    min-height: 1000px; /* Ensure enough height for the wave *
+  }
+  
+  .svg_container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .svg_container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+   */
